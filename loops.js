@@ -20,13 +20,18 @@ const cars = [`chevy`, `volvo`, `saab`, `ford`, `ferrari`, `tesla`, `nissan`]
 for(let i = 0; i < cars.length; i++){
 
      if(i >= 4 && i < 6){
-        console.log(`here are my high end car -`, cars[i])
+        // console.log(`here are my high end car -`, cars[i])
         // console.log only high end cars
     }
     // console.log(`Checkout my car`, cars[i])
 }
 
+// LAB
 
+for(let x = 10; x > 0; x--){
+ console.log(x)
+}
+console.log(`Blast off`)
 
 
 
